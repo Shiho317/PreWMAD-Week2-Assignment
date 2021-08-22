@@ -7,6 +7,7 @@ body{
   color: black;
   margin: 0;
   padding: 0;
+  font-family: 'Besley', serif;
 }
 
 /*===================for laptop==================*/
@@ -111,6 +112,7 @@ ul{
   text-align: center;
   position: relative;
   bottom: 80px;
+  font-family: 'Rock Salt', 'cursive';
 }
 /**/
 .body__topcontents{
@@ -124,6 +126,7 @@ ul{
 .topcontents__no1 h1{
   text-align: center;
   font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
 }
 .topcontents__no1 img{
   border-radius: 50%;
@@ -135,6 +138,7 @@ ul{
   font-size: 30px;
   padding-bottom: 0;
   text-align: center;
+  font-family: 'Rock Salt', 'cursive';
 }
 .topcontents__no1 p{
   font-size: 15px;
@@ -156,6 +160,7 @@ ul{
 .topcontents__no2 h1{
   text-align: center;
   font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
 }
 .topcontents__no2 img{
   border-radius: 50%;
@@ -165,6 +170,7 @@ ul{
 .topcontents__no2 h2{
   font-size: 30px;
   padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
 }
 .topcontents__no2 p{
   font-size: 15px;
@@ -185,6 +191,7 @@ ul{
 .topcontents__no3 h1{
   text-align: center;
   font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
 }
 
 .topcontents__no3 img{
@@ -195,6 +202,7 @@ ul{
 .topcontents__no3 h2{
   font-size: 30px;
   padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
 }
 .topcontents__no3 p{
   font-size: 15px;
@@ -219,6 +227,7 @@ ul{
 #no1 h1{
   font-size: 30px;
   text-align: center;
+  font-family: 'Rock Salt', 'cursive';
 }
 .details__no1{
   background-image: url(../img/1200px-Quotation_Marks.svg.png);
@@ -349,6 +358,7 @@ ul{
   position: relative;
   top: 100px;
   bottom: 10px;
+  font-family: 'Rock Salt', 'cursive';
 }
 .location p{
   font-size: 20px;
@@ -363,6 +373,20 @@ ul{
 }
 .rfbfsite:hover{
   color: #154369;
+}
+.SNS__bfrf{
+  text-align: center;
+  position: relative;
+  top: -1100px;
+}
+.SNS__bfrf .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .instagram:hover{
+  filter: opacity(50%);
 }
 .slash1{
   display: block;
@@ -379,6 +403,7 @@ ul{
 #no2 h1{
   font-size: 30px;
   text-align: center;
+  font-family: 'Rock Salt', 'cursive';
 }
 .details__no2{
   background-image: url(../img/1200px-Quotation_Marks.svg.png);
@@ -512,6 +537,7 @@ ul{
   position: relative;
   top: 100px;
   bottom: 10px;
+  font-family: 'Rock Salt', 'cursive';
 }
 .location__bf p{
   font-size: 20px;
@@ -527,6 +553,17 @@ ul{
 .bluefox__site:hover{
   color: #154369;
 }
+.SNS__bluefox{
+  text-align: center;
+  position: relative;
+  top: -1400px;
+}
+.SNS__bluefox .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bluefox .instagram:hover{
+  filter: opacity(50%);
+}
 .slash2{
   display: block;
   width: 100%;
@@ -535,13 +572,14 @@ ul{
   border: 0;
 }
 #no2{
-  height: 1500px;
+  height: 1400px;
 }
 
 /*==============Saveur Restaurant===============*/
 #no3 h1{
   font-size: 30px;
   text-align: center;
+  font-family: 'Rock Salt', 'cursive';
 }
 .details__no3{
   background-image: url(../img/1200px-Quotation_Marks.svg.png);
@@ -664,31 +702,45 @@ ul{
   display: block;
   text-align: center;
   position: relative;
-  bottom: 1000px;
+  bottom: 1400px;
 }
 .location__saveur h2{
   font-size: 30px;
   text-align: center;
   position: relative;
-  top: 100px;
-  bottom: 10px;
+  top: 50px;
+  font-family: 'Rock Salt', 'cursive';
 }
 .location__saveur p{
   font-size: 20px;
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 .saveur__site{
   position: relative;
-  top: 100px;
+  top: 50px;
   font-weight: bold;
 }
 .saveur__site:hover{
   color: #154369;
 }
+.SNS__saveur{
+  text-align: center;
+  position: relative;
+  top: -1450px;
+}
+.SNS__saveur .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .instagram:hover{
+  filter: opacity(50%);
+}
 #no3{
-  height: 1500px;
+  height: 1400px;
 }
 
   }
