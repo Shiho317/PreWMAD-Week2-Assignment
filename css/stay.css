@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* --------------------------------------
+header
+----------------------------------------*/
+#mobile_menu {
+  /* border: 1px solid pink; */
+  min-width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mobile_menu img{
+padding: 0.5rem 0 0 1rem;
+}
+
+#mobile_menu2 {
+  /* border: 1px solid blue; */
+  min-width: 20%;
+  display: flex;
+}
+#mobile_menu2 a{
+  color: white;
+}
+
+#mobile_menu2 p {
+  /* border: 1px solid pink; */
+  background-color: #154369;
+  margin: 0;
+  display: block;
+  min-height: 100%;
+  font-size: 0.8rem;
+  padding: 1.2rem;
+  padding-top: 1.8rem;
+  z-index: -1;
+}
+#mobile_menu2 p:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#mobile_menu i{
+  /* border: 1px solid pink; */
+  display: inline-block;
+  width: auto;
+  min-height: 100%;
+  text-align: center;
+  font-size:2.3rem;
+  color: #154369;
+  padding: 1.1rem;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.pc-menu ul{
+  display: none;
+}
+
+.mobile_mainpic img{
+  width: 100%;
+}
+
+/*------------------------
+main
+------------------------- */
+#explain {
+  /* border: 1px solid pink; */
+  width: 90%;
+  margin: 2rem auto;
+
+}
+
+#explain h1 {
+  font-family: 'Oleo Script', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#explain h1, p {
+  text-align: center;
+}
+#explain a {
+  border-bottom: 1px solid black;
+}
+
+/* ------------------------
+スライド
+-------------------------*/
+
+.container {
+  /* outline: 8px solid red; */
+  width: 80%;
+  height: 15rem;
+  margin: 16px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  transition: transform .3s;
+}
+
+.container li {
+  height: 100%;
+  min-width: 100%;
+}
+
+.container li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#prev,
+#next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(235, 229, 229, 0.6);
+  font-size: 3rem;
+  padding: 0 8px 4px;
+  cursor: pointer;
+}
+
+
+#prev:hover,
+#next:hover {
+  opacity: .8;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ----------------
+booking
+----------------- */
+#booking {
+  /* border: 1px solid pink; */
+  width: 100%;
+}
+
+#booking h2 {
+  margin-top: 3rem;
+}
+
+#booking h2, p {
+  text-align: center;
+}
+#input{
+  /* border: 1px solid pink; */
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input {
+  width: 40%;
+  height: 2.5rem;
+}
+
+#booking p {
+  background-color: #154369;
+  color: white;
+  padding-top: 0.6rem;
+  margin: 2rem auto;
+  text-align: center;
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 4px;
+}
+
+/*------------------
+ hotel
+------------------*/
+.hoteltitle {
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.hotel{
+  border: 1px solid #ccc;
+  width: 85%;
+  margin: 3rem auto;
+}
+
+.hotel img{
+  width: 100%;
+  height: 18rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.hotel a{
+  color:black;
+}
+
+.book > a {
+  color: white;
+}
+
+.hotel h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.btnflex {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.detail {
+  width: 100%;
+}
+
+.book {
+  background-color: rgb(48, 175, 105);
+  margin: 0;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+
+
+
+
+
+
+/* -------------------------------
+laptop用
+-------------------------------- */
+@media(min-width: 850px){
+  /*------------------
+  none
+  -------------------*/
+  #mobile_menu2 {
+    display: none;
+  }
+  
+  /*--------------------
+  header
+  -------------------*/
+  .pc-menu ul{
+    /* border: 1px solid pink; */
+    display: block;
+    margin: 0;
+    width: 90%;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+  }
+  
+  .pc-menu li {
+    /* border: 1px solid red; */
+    padding: 1.3rem;
+  }
+  
+  .pc-menu a{
+    display: block;
+    color:rgb(41, 40, 40);
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+  
+  #three_setbar {
+    /* border: 1px solid rgb(10, 10, 10); */
+    display: flex;
+  }
+  #three_setbar:hover{
+    cursor: pointer;
+  }
+
+  .firstli {
+    background-color: rgb(48, 175, 105);
+  }
+  .secondli {
+    background-color: rgb(214, 211, 27);
+  }
+  .secondli a{
+    background-color: rgb(214, 211, 27);
+    color:rgb(104, 103, 103)
+  }
+  .thirdli {
+    background-color: #154369
+  }
+  .firstli:hover{
+    opacity: 0.8;
+  }
+  .secondli:hover {
+    opacity: 0.8;
+  }
+  .thirdli:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /*------------------------
+  main
+  ------------------------- */
+  #explain {
+    /* border: 1px solid #154369; */
+  }
+
+  .container {
+    /* outline: 8px solid red; */
+    width: 70%;
+    /* height: 24rem; */
+  }
+  
+  /* -----------------------
+  カレンダー
+  -------------------------*/
+  #flex_forlaptop {
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+  }
+  
+  input {
+    margin: 2rem 0 0 1.2rem;
+  }
+  #flex_forlaptop p{
+    margin-right: 5rem;
+    width: 9rem;
+  }
+  
+  /* -----------------------
+  hotel
+  -------------------------*/
+#flex {
+  background-color:rgba(247, 243, 243, 0.87);
+}
+
+  .hotel{
+    /* border: 1px solid #ccc; */
+    width: 70%;
+    margin: 3rem auto;
+  }
+  
+  .firstgroup {
+    /* border: 1px solid #ccc; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #firstslide {
+    width: 95%;
+  }
+  
+  #secondslide {
+    width: 110%;
+  }
+
+  .secondgroup {
+    /* border: 1px solid #ccc; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #thirdslide {
+    width: 95%;
+  }
+  
+  #forthslide {
+    width: 95%;
+  }
+
+  .thirdgroup {
+    /* border: 1px solid #ccc; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #fifthslide {
+    width: 100%;
+  }
+  
+  #sixslide {
+    width: 100%;
+  }
+}
