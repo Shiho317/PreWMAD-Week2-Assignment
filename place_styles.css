@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 12px;
+}
+
+.main_visual {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_visual img {
+    width: 100%;
+    height: auto;
+}
+
+main > section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_desc_title h1 {
+    display: block;
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main_desc_1 h2 {
+    display: block;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.main_desc_2 h2 {
+    display: block;
+    margin: 20px 20px 0px;
+    text-align: center;
+}
+
+.underbar {
+    display: block;
+    border: solid 1px #cfcfcf;
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.carousel {
+    background: #eee;
+    margin: 0 auto;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 75%;
+    height: 400px;
+    margin: 50px 10px 0px;
+    /* outline: solid 8px red; */
+    overflow: hidden;
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    transition: transform .3s;
+}
+
+.container li {
+    height: 100%;
+    min-width: 100%;
+}
+
+.container li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.carousel button {
+    border: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.carousel button span {
+    background: rgb(95, 95, 95);
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+#prev, #next {
+    display: block;
+    color: rgba(0, 0, 0, .8);
+    cursor: pointer;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+#prev:hover, #next:hover {
+    opacity: .5;
+}
+
+.hidden > span {
+    display: none;
+}
+
+nav {
+    display: block;
+    background: #eee;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+nav button {
+    border: none;
+    background: rgb(95, 95, 95);
+    width: 16px;
+    height: 6px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+nav .current {
+    background: rgb(206, 213, 245);
+}
+
+nav button + button {
+    margin-left: 5px;
+}
+
+
+
+@media (min-width: 600px) {
+
+}
