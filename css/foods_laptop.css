@@ -1,0 +1,745 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Besley', serif;
+}
+
+/*===================for laptop==================*/
+@media(min-width: 40rem){
+  .body__img{
+  background-image: url(../img/Saveur-Restaurant-Presents-The-Wine-Makers-Dinner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  opacity: 0.7;
+}
+
+/*css for slider*/
+
+.slider {
+    width:300px;
+    position: relative;
+    bottom: 450px;
+    margin:0 auto;
+}
+
+.slider li img {
+    width:400px;
+    height:auto;
+}
+
+.slider .slick-slide {
+  transform: scale(0.5);
+  transition: all .5s;
+  opacity: 0.5;
+}
+
+.slider .slick-slide.slick-center{
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+/*setting for button*/
+
+/*location*/
+.slick-prev, 
+.slick-next {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid rgb(39, 35, 100);
+    border-right: 2px solid rgb(39, 35, 100);
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+/*setting for dot-nav*/
+
+.slick-dots {
+    text-align:center;
+  margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+  margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;
+    height:8px;
+    display:block;
+    border-radius:50%;
+    background:rgb(39, 35, 100);
+}
+
+.slick-dots .slick-active button{
+    background:rgb(39, 35, 100);
+}
+
+/*=========CSS===============*/
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.body__title h1{
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  font-family: 'Rock Salt', 'cursive';
+}
+/**/
+.body__topcontents{
+  display: flex;
+  justify-content: space-around;
+}
+.topcontents__no1{
+  display: block;
+  text-align: center;
+}
+.topcontents__no1 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no1 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+.topcontents__no1 h2{
+  font-size: 30px;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no1 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: center;
+}
+.topcontents__no1 a{
+  font-weight: bold;
+}
+.topcontents__no1 a:hover{
+  color: #154369;
+}
+
+/**/
+.topcontents__no2{
+  display: block;
+  text-align: center;
+}
+.topcontents__no2 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no2 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.topcontents__no2 h2{
+  font-size: 30px;
+  padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no2 p{
+  font-size: 15px;
+  padding-top: 0;
+}
+.topcontents__no2 a{
+  font-weight: bold;
+}
+.topcontents__no2 a:hover{
+  color: #154369;
+}
+
+/**/
+.topcontents__no3{
+  display: block;
+  text-align: center;
+}
+.topcontents__no3 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+
+.topcontents__no3 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.topcontents__no3 h2{
+  font-size: 30px;
+  padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no3 p{
+  font-size: 15px;
+  padding-top: 0;
+}
+.topcontents__no3 a{
+  font-weight: bold;
+}
+
+.topcontents__no3 a:hover{
+  color: #154369;
+}
+.startline{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+
+/*=============red fish blue fish=============*/
+#no1 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no1{
+  background-image: url(../img/1200px-Quotation_Marks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70%;
+  height: 600px;
+  z-index: 6;
+}
+.details__no1-1{
+  position: relative;
+  top: 120px;
+}
+.rv1_1{
+  width: 600px;
+  padding-left: 30px;
+  color: #154369;
+}
+.rv1_1 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_1 p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv1_2{
+  padding-top: 0;
+  padding-left: 100px;
+  width: 600px;
+  color: #154369;
+}
+.rv1_2 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_2 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv1_3{
+  width: 620px;
+  padding-left: 30px;
+  color: #154369;
+  position: relative;
+}
+.rv1_3 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_3 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank1{
+  background-color: #154369;
+  position: relative;
+  bottom: 600px;
+  left: 200px;
+  width: 270px;
+  height: 250px;
+  z-index: 1;
+}
+.blank2{
+  position: relative;
+  right: 50px;
+  bottom: 550px;
+  background-color: #154369;
+  width: 30%;
+  height: 120px;
+  z-index: 2;
+}
+.rfbf__img{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 700px;
+  bottom: 500px;
+  width: 500px;
+  margin: 0;
+}
+.left{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 10% 40% 10%;
+  z-index: 4;
+}
+.center{
+  position: relative;
+  bottom: 50px;
+  left: 80px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  z-index: 3;
+}
+.right{
+  position: relative;
+  left: 250px;
+  bottom: 80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10% 40% 10% 40%;
+  z-index: 5;
+}
+.location{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 1000px;
+}
+.location h2{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  bottom: 10px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location p{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+.rfbfsite{
+  position: relative;
+  top: 150px;
+  font-weight: bold;
+}
+.rfbfsite:hover{
+  color: #154369;
+}
+.SNS__bfrf{
+  text-align: center;
+  position: relative;
+  top: -1100px;
+}
+.SNS__bfrf .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .instagram:hover{
+  filter: opacity(50%);
+}
+.slash1{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+#no1{
+  height: 1500px;
+}
+
+/*============Blue Fox Cafe===========*/
+#no2 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no2{
+  background-image: url(../img/1200px-Quotation_Marks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70%;
+  height: 600px;
+  z-index: 6;
+}
+.details__no2-1{
+  position: relative;
+  top: 10px;
+}
+.rv2_1{
+  margin-left: auto;
+  width: 650px;
+  margin-right: 30px;
+  color: #154369;
+}
+.rv2_1 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_1 p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv2_2{
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 650px;
+  color: #154369;
+}
+.rv2_2 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_2 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv2_3{
+  margin-left: auto;
+  width: 650px;
+  padding-left: 30px;
+  color: #154369;
+  position: relative;
+}
+.rv2_3 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_3 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank3{
+  background-color: #154369;
+  position: relative;
+  bottom: 600px;
+  left: 20px;
+  width: 100px;
+  height: 500px;
+  z-index: 1;
+}
+.blank4{
+  position: relative;
+  left: 230px;
+  bottom: 800px;
+  background-color: #154369;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+}
+.bluefox__img{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10px;
+  bottom: 500px;
+}
+.left2{
+  position: relative;
+  left: 30px;
+  top: 40px;
+  width: 300px;
+  height: 250px;
+  border-radius: 40% 10% 40% 10%;
+  z-index: 4;
+}
+.center2{
+  position: relative;
+  top: 50px;
+  left: 80px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  z-index: 3;
+}
+.right2{
+  position: relative;
+  left: 300px;
+  bottom: 150px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10% 40% 10% 40%;
+  z-index: 5;
+}
+.location__bf{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 1300px;
+}
+.location__bf h2{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  bottom: 10px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location__bf p{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+.bluefox__site{
+  position: relative;
+  top: 150px;
+  font-weight: bold;
+}
+.bluefox__site:hover{
+  color: #154369;
+}
+.SNS__bluefox{
+  text-align: center;
+  position: relative;
+  top: -1400px;
+}
+.SNS__bluefox .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bluefox .instagram:hover{
+  filter: opacity(50%);
+}
+.slash2{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+#no2{
+  height: 1400px;
+}
+
+/*==============Saveur Restaurant===============*/
+#no3 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no3{
+  background-image: url(../img/1200px-Quotation_Marks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 70%;
+  height: 600px;
+  z-index: 6;
+}
+.details__no3-1{
+  position: relative;
+  top: 120px;
+}
+.rv3_1{
+  width: 600px;
+  padding-left: 30px;
+  color: #154369;
+}
+.rv3_1 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_1 p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv3_2{
+  padding-top: 0;
+  padding-left: 100px;
+  width: 600px;
+  color: #154369;
+}
+.rv3_2 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_2 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv3_3{
+  width: 620px;
+  padding-left: 30px;
+  color: #154369;
+  position: relative;
+}
+.rv3_3 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_3 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank5{
+  background-color: #154369;
+  position: relative;
+  bottom: 750px;
+  left: 200px;
+  width: 200px;
+  height: 500px;
+  z-index: 1;
+}
+.blank6{
+  position: relative;
+  left: 50px;
+  bottom: 1000px;
+  background-color: #154369;
+  width: 100px;
+  height: 400px;
+  z-index: 2;
+}
+.saveur__img{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 700px;
+  bottom: 500px;
+  width: 500px;
+  margin: 0;
+}
+.left3{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 10% 40% 10%;
+  z-index: 4;
+}
+.center3{
+  position: relative;
+  bottom: 50px;
+  left: 80px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  z-index: 3;
+}
+.right3{
+  position: relative;
+  left: 250px;
+  bottom: 80px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10% 40% 10% 40%;
+  z-index: 5;
+}
+.location__saveur{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 1400px;
+}
+.location__saveur h2{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location__saveur p{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.saveur__site{
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+.saveur__site:hover{
+  color: #154369;
+}
+.SNS__saveur{
+  text-align: center;
+  position: relative;
+  top: -1450px;
+}
+.SNS__saveur .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .instagram:hover{
+  filter: opacity(50%);
+}
+#no3{
+  height: 1400px;
+}
+
+  }

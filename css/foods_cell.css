@@ -1,0 +1,711 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  color: black;
+  font-family: 'Besley', serif;
+}
+
+/*=================for cellphone================*/
+@media(max-width: 40rem){
+  .body__img{
+    background-image: url(../img/Saveur-Restaurant-Presents-The-Wine-Makers-Dinner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    opacity: 0.7;
+}
+
+/*for slider*/
+.slider {
+  width:300px;
+  position: relative;
+  bottom: 170px;
+  margin:0 auto;
+}
+
+.slider li img {
+  width:130px;
+  height:auto;
+}
+
+.slider .slick-slide {
+transform: scale(0.5);
+transition: all .5s;
+opacity: 0.5;
+}
+
+.slider .slick-slide.slick-center{
+transform: scale(1);
+opacity: 1;
+}
+
+
+/*setting for button*/
+
+/*location*/
+.slick-prev, 
+.slick-next {
+  position: absolute;
+  top: 42%;
+  cursor: pointer;
+  outline: none;
+  border-top: 2px solid rgb(39, 35, 100);
+  border-right: 2px solid rgb(39, 35, 100);
+  height: 15px;
+  width: 15px;
+}
+
+.slick-prev {
+  left: -1.5%;
+  transform: rotate(-135deg);
+}
+
+.slick-next {
+  right: -1.5%;
+  transform: rotate(45deg);
+}
+
+/*setting for dot-nav*/
+
+.slick-dots {
+  text-align:center;
+margin:20px 0 0 0;
+}
+
+.slick-dots li {
+  display:inline-block;
+margin:0 5px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width:8px;
+  height:8px;
+  display:block;
+  border-radius:50%;
+  background:rgb(39, 35, 100);
+}
+
+.slick-dots .slick-active button{
+  background:rgb(39, 35, 100);
+}
+
+/*CSS for cellphone*/
+ul{
+margin:0;
+padding: 0;
+list-style: none;
+}
+
+.body__title h1{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  font-family: 'Rock Salt', 'cursive';
+}
+
+/**/
+.body__topcontents{
+  display: block;
+  text-align: center;
+  height: 2000px;
+}
+.topcontents__no1{
+  position: relative;
+  bottom: 50px;
+}
+.topcontents__no1 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no1 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+.topcontents__no1 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no1 p{
+  font-size: 15px;
+  padding-top: 0;
+  text-align: center;
+}
+.topcontents__no1 a{
+  font-weight: bold;
+}
+.topcontents__no1 a:hover{
+  color: #154369;
+}
+
+/**/
+.topcontents__no2{
+  position: relative;
+  bottom: 20px;
+}
+.topcontents__no2 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no2 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.topcontents__no2 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no2 p{
+  font-size: 15px;
+  padding-top: 0;
+}
+.topcontents__no2 a{
+  font-weight: bold;
+}
+.topcontents__no2 a:hover{
+  color: #154369;
+}
+
+/**/
+.topcontents__no3 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+}
+
+.topcontents__no3 img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.topcontents__no3 h2{
+  font-size: 20px;
+  padding-bottom: 0;
+  font-family: 'Rock Salt', 'cursive';
+}
+.topcontents__no3 p{
+  font-size: 15px;
+  padding-top: 0;
+}
+.topcontents__no3 a{
+  font-weight: bold;
+}
+
+.topcontents__no3 a:hover{
+  color: #154369;
+}
+.startline{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+/*=============red fish blue fish=============*/
+#no1 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no1{
+  background-image: url(../img/gray-quotation-marks-v2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+}
+.rv1_1{
+  margin-left: auto;
+  width: 270px;
+  color: #154369;
+  position: relative;
+  top: 60px;
+}
+.rv1_1 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_1 p{
+  font-size: 10px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv1_2{
+  margin-right: auto;
+  padding-top: 0;
+  width: 340px;
+  color: #154369;
+  position: relative;
+  top: 20px;
+}
+.rv1_2 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_2 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv1_3{
+  margin-left: auto;
+  width: 270px;
+  color: #154369;
+  position: relative;
+  bottom: 20px;
+}
+.rv1_3 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv1_3 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank1{
+  background-color: #154369;
+  position: relative;
+  bottom: 450px;
+  width: 270px;
+  height: 250px;
+  z-index: 1;
+}
+.blank2{
+  margin-left: auto;
+  position: relative;
+  bottom: 350px;
+  background-color: #154369;
+  width: 290px;
+  height: 120px;
+  z-index: 2;
+}
+.rfbf__img{
+  display: block;
+  text-align: center;
+}
+.left{
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 40% 10% 40% 10%;
+  z-index: 3;
+}
+.center{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  z-index: 4;
+}
+.right{
+  position: relative;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10% 40% 10% 40%;
+  z-index: 5;
+}
+.location{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+}
+.location h2{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location p{
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+.rfbfsite{
+  position: relative;
+  bottom: 50px;
+  font-weight: bold;
+}
+.rfbfsite:hover{
+  color: #154369;
+}
+.SNS__bfrf{
+  text-align: center;
+  position: relative;
+  top: -150px;
+}
+.SNS__bfrf .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bfrf .instagram:hover{
+  filter: opacity(50%);
+}
+.slash1{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+#no1{
+  height: 1550px;
+}
+/*===================bluefoxcafe===================*/
+#no2 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no2{
+  background-image: url(../img/gray-quotation-marks-v2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  z-index: 1;
+}
+.rv2_1{
+  margin-left: auto;
+  width: 350px;
+  color: #154369;
+  position: relative;
+  top: 40px;
+  z-index: 5;
+}
+.rv2_1 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_1 p{
+  font-size: 10px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv2_2{
+  margin-right: auto;
+  padding-top: 0;
+  width: 340px;
+  color: #154369;
+  position: relative;
+  top: 5px;
+  z-index: 4;
+}
+.rv2_2 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_2 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv2_3{
+  margin-left: auto;
+  width: 350px;
+  color: #154369;
+  position: relative;
+  bottom: 30px;
+  z-index: 3;
+}
+.rv2_3 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv2_3 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank3{
+  margin-left: auto;
+  background-color: #154369;
+  position: relative;
+  bottom: 360px;
+  width: 180px;
+  height: 300px;
+  z-index: 1;
+}
+.blank4{
+  position: relative;
+  bottom: 430px;
+  background-color: #154369;
+  width: 200px;
+  height: 120px;
+  z-index: 2;
+}
+.bluefox__img{
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 10px;
+
+}
+.left2{
+  width: 250px;
+  height: 200px;
+  border-radius: 40% 10% 40% 10%;
+  position: relative;
+  z-index: 3;
+}
+.center2{
+  width: 150px;
+  height: 150px;
+  border-radius: 10% 40% 10% 40%;
+  position: relative;
+  z-index: 4;
+}
+.right2{
+  width: 200px;
+  height: 150px;
+  border-radius: 10% 40% 10% 40%;
+  position: relative;
+  z-index: 5;
+}
+.location__bf{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  
+}
+.location__bf h2{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location__bf p{
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+.bluefox__site{
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+}
+.bluefox__site:hover{
+  color: #154369;
+}
+.SNS__bluefox{
+  text-align: center;
+  position: relative;
+  top: -250px;
+}
+.SNS__bluefox .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__bluefox .instagram:hover{
+  filter: opacity(50%);
+}
+.slash2{
+  display: block;
+  width: 100%;
+  background-color: #154369;
+  height: 2px;
+  border: 0;
+}
+#no2{
+  height: 1400px;
+}
+
+/*=============Saveur Restaurant==============*/
+#no3 h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Rock Salt', 'cursive';
+}
+.details__no3{
+  background-image: url(../img/gray-quotation-marks-v2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+}
+.rv3_1{
+  margin-left: auto;
+  width: 350px;
+  color: #154369;
+  position: relative;
+  top: 40px;
+}
+.rv3_1 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_1 p{
+  font-size: 10px;
+  text-align: left;
+  padding-top: 0;
+}
+.rv3_2{
+  margin-right: auto;
+  padding-top: 0;
+  width: 340px;
+  color: #154369;
+  position: relative;
+  top: 5px;
+}
+.rv3_2 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_2 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.rv3_3{
+  margin-left: auto;
+  width: 350px;
+  color: #154369;
+  position: relative;
+  bottom: 30px;
+}
+.rv3_3 h2{
+  font-size: 15px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.rv3_3 p{
+  font-size: 10px;
+  padding-top: 0;
+  text-align: left;
+}
+.blank5{
+  margin-left: auto;
+  background-color: #154369;
+  position: relative;
+  bottom: 350px;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+}
+.blank6{
+  position: relative;
+  bottom: 350px;
+  background-color: #154369;
+  width: 250px;
+  height: 200px;
+  z-index: 2;
+}
+.saveur__img{
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+}
+.left3{
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 10% 40% 10%;
+  position: relative;
+  z-index: 3;
+}
+.center3{
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 10% 40% 10%;
+  position: relative;
+  z-index: 4;
+}
+.right3{
+  width: 200px;
+  height: 250px;
+  border-radius: 10% 40% 10% 40%;
+  position: relative;
+  z-index: 5;
+}
+.location__saveur{
+  background-image: url(../img/1280px-BlankMap-World_gray.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  
+}
+.location__saveur h2{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  font-family: 'Rock Salt', 'cursive';
+}
+.location__saveur p{
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+.saveur__site{
+  font-weight: bold;
+  position: relative;
+  bottom: 70px;
+}
+.saveur__site:hover{
+  color: #154369;
+}
+.SNS__saveur{
+  text-align: center;
+  position: relative;
+  top: -180px;
+}
+.SNS__saveur .twitter:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .facebook:hover{
+  filter: opacity(50%);
+}
+.SNS__saveur .instagram:hover{
+  filter: opacity(50%);
+}
+#no3{
+  height: 1600px;
+}
+  }
