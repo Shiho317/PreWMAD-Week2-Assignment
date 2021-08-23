@@ -303,7 +303,7 @@ nav button + button {
 }
 
 .moreinfo .morethings {
-    margin: 0;
+    margin: 50px 0px;
     padding: 0;
 }
 
@@ -332,9 +332,16 @@ nav button + button {
     padding: 20px;
 }
 
-
-
-
+.morethings_desc button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 15px;
+    background: #154369;
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+}
 
 
 /* -----------------------------
