@@ -8,53 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googlea
-    pis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="place_styles.css">
 </head>
 <body>
-   
-        <!-- ------------------------------------
+
+<!-- ------------------------------------
 head
 -------------------------------------- -->
 <body>
     <header>
-      <div class="pc_header">
-      <div id="mobile_menu">
-        <div>
-          <a href="home.html"><img src="imgHome/logo01.webp" width="200" height="70"></a>
+        <div class="pc_header">
+            <div id="mobile_menu">
+                <div>
+                    <a href="home.html"><img src="imgHome/logo01.webp" width="200" height="70"></a>
+                </div>
+                <div id="mobile_menu2">
+                    <div>
+                        <p><a href="https://www.tourismvictoria.com/coronavirus-update">BOOK YOUR STAY</a></p>
+                    </div>
+                    <div>
+                        <!-- <i class="fas fa-bars"></i> -->
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+            </div>
+            <div class="pc-menu">
+                <ul>
+                    <li><a href="stay.html">STAY</a></li>
+                    <li><a href="place.html">SEE & DO</a></li>
+                    <li><a href="foods.html">EAT & DRINK</a></li>
+                    <div id="three_setbar">
+                        <li class="firstli"><a href="https://www.tourismvictoria.com/deals-and-promotions">TRAVEL DEAL</a></li>
+                        <li class="secondli"><a href="https://www.tourismvictoria.com/coronavirus-update">COVID-19</a></li>
+                        <li class="thirdli"><a href="https://www.tourismvictoria.com/coronavirus-update">BOOK YOUR STAY</a></li>
+                </ul>
+            </div>
         </div>
-              
-        <div id="mobile_menu2">
-          <div>
-            <p><a href="https://www.tourismvictoria.com/coronavirus-update">BOOK YOUR STAY</a></p>
-          </div>
-          <div>
-            <i class="fas fa-bars"></i>
-          </div>
-        </div>
-      </div>
-  
-        <div class="pc-menu">
-          <ul>
-            <li><a href="stay.html">STAY</a></li>
-            <li><a href="place.html">SEE & DO</a></li>
-            <li><a href="foods.html">EAT & DRINK</a></li>
-  
-            <div id="three_setbar">
-            <li class="firstli"><a href="https://www.tourismvictoria.com/deals-and-promotions">TRAVEL DEAL</a></li>
-              <li class="secondli"><a href="https://www.tourismvictoria.com/coronavirus-update">COVID-19</a></li>
-              <li class="thirdli"><a href="https://www.tourismvictoria.com/coronavirus-update">BOOK YOUR STAY</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      
-        <div class="mobile_mainpic">
-          <img src="imgHome/fairmont.jpeg">
-        </div>       
+    </div>
     </header>
     
     <!--------------------
@@ -79,17 +71,77 @@ head
         <section class="carousel">
             <button id="prev"><span class="material-icons">navigate_before</span></button>
             <div class="container">
-                <ul>
-                    <li><img src="img/carousel_img1.webp" alt=""></li>gio
-                    <li><img src="img/carousel_img2.jpg" alt=""></li>
-                    <li><img src="img/carousel_img3.jpg" alt=""></li>
-                    <li><img src="img/carousel_img4.jpg" alt=""></li>
-                    <li><img src="img/carousel_img5.jpg" alt=""></li>
-                    <li><img src="img/carousel_img6.jpg" alt=""></li>
-                    <li><img src="img/carousel_img7.jpg" alt=""></li>
-                    <li><img src="img/carousel_img8.jpg" alt=""></li>
-                    <li><img src="img/carousel_img9.jpg" alt=""></li>
-                    <li><img src="img/carousel_img10.jpg" alt=""></li>
+                <ul class="carousel_ul">
+                    <li>
+                        <img src="img/carousel_img1.webp" alt="">
+                        <div class="caption">
+                            <p class ="caption1">Attractions</p>
+                            <p class="caption2">Tour the famous Butchart Gardens, discover beautiful Craigdarroch Castle, and feel the pulse of Canada’s oldest Chinatown—truly a hidden gem. Or escape to the water with world-class whale watching, kayaking, fishing and sailing. There’s no shortage of ways to make your Victoria visit truly unforgettable.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img2.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">COMICS, GAMES, PLAY & COLLECTIBLES</p>
+                            <p class="caption2">Imaginations: Engage. From classic, time-tested toys and games to modern technology and cutting edge gaming, Victoria’s vibrant fan culture and specialized stores attract the creatively inclined of all ages from across the Pacific Northwest. As a hub of innovation and exploring new frontiers, Victoria prides itself it being an open, inspired and welcoming community.</p>
+                        </div> 
+                    </li>
+                    <li>
+                        <img src="img/carousel_img3.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption3">BEACHES & LAKES</p>
+                            <p class="caption4">Surrounded by the sea is a perfect place to be. With a vast network of bays, coves, beaches and lakes—plus breathtaking views of the rugged pacific coast, Strait of Juan de Fuca, and Olympic Mountains—there are countless places to have fun on the water surrounded by stunning natural beauty.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img4.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption5">ARTS, CULTURE & HISTORY</p>
+                            <p class="caption6">Explore the past and embrace the exciting present. Being the oldest city in the Pacific Northwest has major advantages.Vancouver Island and Victoria’s rich and fascinating history is rooted in Indigenous culture stretching back thousands of years, and British and Asian traditions since the mid 1800s. These influences echo proudly through Victoria’s amazing architecture, heritage sites, museums, gardens, galleries, markets and cultural celebrations.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img5.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">GARDENS & PARKS</p>
+                            <p class="caption2">The Greater Victoria area, nestled in beautiful, rugged west coast terrain, is home to dozens of gardens and provincial, regional and municipal parks, including some of the most famous in Canada. As early as February, blooms spring up across the Victoria while much of Canada is still covered in snow. The city also has a colourful annual hanging basket tradition to welcome the summer season that dates back 75 years.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img6.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">GOLF VICTORIA</p>
+                            <p class="caption2">A golfer’s paradise with a pleasant climate and breathtaking coastal seascapes, Victoria and Vancouver Island draw golfers from around the world to experience their beautiful and challenging courses. Victoria is also the gateway to the Vancouver Island Golf Trail—a 250-kilometre-long network of 14 scenic courses. For both beginners and experts, Victoria offers golf experiences with some of the best vistas on earth.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img7.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">NIGHTLIFE & ENTERTAINMENT</p>
+                            <p class="caption2">Victoria’s welcoming island atmosphere extends well into the evening to create an exciting nightlife. Enjoy performing arts, live theatre, opera, dance, live music, films and over 100 annual festivals. If you’re thirsty, Victoria has lively craft cocktail and beer scenes driven by talented, passionate mixologists and brewmasters focused on fresh, local and inspired ingredients, plus an extraordinary assortment of restaurants.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img8.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">SPORTS & OUTDOORS</p>
+                            <p class="caption2">Victoria combines the best of land and sea to create a perfect island playground for adventurous outdoor enthusiasts.A year-round temperate climate, rugged west coast shores and mountains, lush rainforest canopy and pacific breezes offer a natural environment tailor made for everything from hiking, cycling and kayaking, to diving, fishing, picnicking and even ziplining above the treetops.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img9.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">STATUES & LANDMARKS</p>
+                            <p class="caption2">As the province’s capital, Victoria is home to the sprawling Parliament Buildings, constructed in 1898. Structures like the imposing CPR Steamship Terminal Building speak to the city’s historical significance and Thunderbird Park is home to colourful carved totem poles of Vancouver Island’s First Nations.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/carousel_img10.jpg" alt="">
+                        <div class="caption">
+                            <p class ="caption1">ROYAL TREATMENT</p>
+                            <p class="caption2">Victoria has hosted several Royal Visits, including Queen Elizabeth and, most recently, William and Kate, Duke and Duchess of Cambridge, during their Royal Tour in September 2016. Easily create your own royal experience by exploring landmarks and historical sites, museums, Victoria’s boutique shopping scene, or indulging in royal treatment at the Fairmont Empress.</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <button id="next"><span class="material-icons">navigate_next</span></button>
@@ -105,7 +157,22 @@ head
             <button></button>
             <button></button> -->
         </nav>
+        <section class="morethings">
+            <div>
+                <h1>MORE THINGS TODO</h1>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>BE SOCIAL. CONNECT WITH US :</p>       
+        <div class="icons">
+            <a href="https://www.facebook.com/tourismvictoriafan"><i class="fab fa-facebook"></i></a>
+            <a href= "https://twitter.com/victoriavisitor"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/TourismVictoriaBC/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/TourismVictoriaBC"><i class="fab fa-youtube-square"></i></a>
+            </div>
+    </footer>
+    <p class="copyright">&copy; 2021 Victoria. All Rights Reserved</p>
 </body>
     <script src="js/main.js"></script>
 </html>
