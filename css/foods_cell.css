@@ -104,11 +104,11 @@ list-style: none;
 }
 
 .body__title h1{
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   position: relative;
-  bottom: 80px;
-  font-family: 'Rock Salt', 'cursive';
+  bottom: 100px;
+  font-family: 'Racing Sans One', 'cursive';
 }
 
 /**/
@@ -124,7 +124,7 @@ list-style: none;
 .topcontents__no1 h1{
   text-align: center;
   font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Racing Sans One', 'cursive';
 }
 .topcontents__no1 img{
   border-radius: 50%;
@@ -136,7 +136,7 @@ list-style: none;
   font-size: 20px;
   padding-bottom: 0;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no1 p{
   font-size: 15px;
@@ -153,12 +153,12 @@ list-style: none;
 /**/
 .topcontents__no2{
   position: relative;
-  bottom: 20px;
+  top: 80px;
 }
 .topcontents__no2 h1{
   text-align: center;
   font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Racing Sans One', 'cursive';
 }
 .topcontents__no2 img{
   border-radius: 50%;
@@ -168,7 +168,7 @@ list-style: none;
 .topcontents__no2 h2{
   font-size: 20px;
   padding-bottom: 0;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no2 p{
   font-size: 15px;
@@ -182,10 +182,14 @@ list-style: none;
 }
 
 /**/
+.topcontents__no3{
+  position: relative;
+  top: 200px;
+}
 .topcontents__no3 h1{
   text-align: center;
   font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Racing Sans One', 'cursive';
 }
 
 .topcontents__no3 img{
@@ -196,7 +200,7 @@ list-style: none;
 .topcontents__no3 h2{
   font-size: 20px;
   padding-bottom: 0;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no3 p{
   font-size: 15px;
@@ -220,7 +224,7 @@ list-style: none;
 #no1 h1{
   font-size: 30px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no1{
   background-image: url(../img/gray-quotation-marks-v2.png);
@@ -340,7 +344,7 @@ list-style: none;
   text-align: center;
   position: relative;
   bottom: 50px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location p{
   font-size: 15px;
@@ -384,7 +388,7 @@ list-style: none;
 #no2 h1{
   font-size: 30px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no2{
   background-image: url(../img/gray-quotation-marks-v2.png);
@@ -511,7 +515,7 @@ list-style: none;
   text-align: center;
   position: relative;
   bottom: 50px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location__bf p{
   font-size: 15px;
@@ -553,7 +557,7 @@ list-style: none;
 #no3 h1{
   font-size: 30px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no3{
   background-image: url(../img/gray-quotation-marks-v2.png);
@@ -675,7 +679,7 @@ list-style: none;
   text-align: center;
   position: relative;
   bottom: 70px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location__saveur p{
   font-size: 15px;

@@ -1,13 +1,13 @@
 *{
   box-sizing: border-box;
 }
-
 body{
   background-color: white;
   color: black;
   margin: 0;
   padding: 0;
   font-family: 'Besley', serif;
+  
 }
 
 /*===================for laptop==================*/
@@ -107,16 +107,17 @@ ul{
   list-style: none;
 }
 .body__title h1{
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   position: relative;
-  bottom: 80px;
-  font-family: 'Rock Salt', 'cursive';
+  bottom: 250px;
+  font-family: 'Racing Sans One', 'cursive';
 }
 /**/
 .body__topcontents{
   display: flex;
   justify-content: space-around;
+  height: 1000px;
 }
 .topcontents__no1{
   display: block;
@@ -124,8 +125,8 @@ ul{
 }
 .topcontents__no1 h1{
   text-align: center;
-  font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-size: 40px;
+  font-family: 'Racing Sans One', 'cursive';
 }
 .topcontents__no1 img{
   border-radius: 50%;
@@ -137,7 +138,7 @@ ul{
   font-size: 30px;
   padding-bottom: 0;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no1 p{
   font-size: 15px;
@@ -158,8 +159,8 @@ ul{
 }
 .topcontents__no2 h1{
   text-align: center;
-  font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-size: 40px;
+  font-family: 'Racing Sans One', 'cursive';
 }
 .topcontents__no2 img{
   border-radius: 50%;
@@ -169,7 +170,7 @@ ul{
 .topcontents__no2 h2{
   font-size: 30px;
   padding-bottom: 0;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no2 p{
   font-size: 15px;
@@ -189,8 +190,8 @@ ul{
 }
 .topcontents__no3 h1{
   text-align: center;
-  font-size: 30px;
-  font-family: 'Rock Salt', 'cursive';
+  font-size: 40px;
+  font-family: 'Racing Sans One', 'cursive';
 }
 
 .topcontents__no3 img{
@@ -201,7 +202,7 @@ ul{
 .topcontents__no3 h2{
   font-size: 30px;
   padding-bottom: 0;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .topcontents__no3 p{
   font-size: 15px;
@@ -224,9 +225,9 @@ ul{
 
 /*=============red fish blue fish=============*/
 #no1 h1{
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no1{
   background-image: url(../img/1200px-Quotation_Marks.png);
@@ -352,12 +353,12 @@ ul{
   bottom: 1000px;
 }
 .location h2{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   position: relative;
   top: 100px;
   bottom: 10px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location p{
   font-size: 20px;
@@ -395,14 +396,14 @@ ul{
   border: 0;
 }
 #no1{
-  height: 1500px;
+  height: 1700px;
 }
 
 /*============Blue Fox Cafe===========*/
 #no2 h1{
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no2{
   background-image: url(../img/1200px-Quotation_Marks.png);
@@ -531,12 +532,12 @@ ul{
   bottom: 1300px;
 }
 .location__bf h2{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   position: relative;
   top: 100px;
   bottom: 10px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location__bf p{
   font-size: 20px;
@@ -571,14 +572,14 @@ ul{
   border: 0;
 }
 #no2{
-  height: 1400px;
+  height: 1600px;
 }
 
 /*==============Saveur Restaurant===============*/
 #no3 h1{
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .details__no3{
   background-image: url(../img/1200px-Quotation_Marks.png);
@@ -704,11 +705,11 @@ ul{
   bottom: 1400px;
 }
 .location__saveur h2{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   position: relative;
   top: 50px;
-  font-family: 'Rock Salt', 'cursive';
+  font-family: 'Fugaz One', 'cursive';
 }
 .location__saveur p{
   font-size: 20px;
@@ -739,7 +740,15 @@ ul{
   filter: opacity(50%);
 }
 #no3{
-  height: 1400px;
+  height: 1780px;
+}
+footer{
+  position: relative;
+  top: 300px;
+}
+.copyright{
+  position: relative;
+  bottom: -280px;
 }
 
   }
