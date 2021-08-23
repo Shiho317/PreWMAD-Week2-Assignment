@@ -131,7 +131,7 @@ main > section {
     background: #eee;
     margin: 0 auto;
     padding: 20px 0px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -165,27 +165,28 @@ main > section {
     object-fit: cover;
     border-radius: 2%;
     position: relative;
-    opacity: .7;
+    opacity: .5;
 }
 
 .container li .caption {
     position: absolute;
-    top: 15%;
-    left: 0;
+    top: 20%;
+    left: 0%;
 }
 
 .container li .caption1 {
-    /* color: #154369; */
-    color: white;
+    color: #154369;
+    /* color: white; */
     font-size: 30px;
     font-family: 'Teko', sans-serif;
     font-weight: 700;
 }
 
 .container li .caption2 {
-    /* color: #154369; */
-    color: white;
+    color: #154369;
+    /* color: white; */
     margin: 15px 30px;
+    font-family: 'Teko', sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -203,6 +204,7 @@ main > section {
     /* color: white; */
     margin: 15px 30px;
     font-size: 14px;
+    font-family: 'Teko', sans-serif;
     line-height: 1.5;
 }
 
@@ -219,6 +221,7 @@ main > section {
     /* color: white; */
     margin: 15px 30px;
     font-size: 14px;
+    font-family: 'Teko', sans-serif;
     line-height: 1.5;
 }
 
@@ -259,7 +262,7 @@ main > section {
 
 nav {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background: #eee;
     padding: 25px 0px;
@@ -283,6 +286,60 @@ nav button + button {
     margin-left: 5px;
 }
 
+.moreinfo {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.moreinfo div {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.moreinfo h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.moreinfo .morethings {
+    margin: 0;
+    padding: 0;
+}
+
+.morethings img {
+    width: 80%;
+    height: auto;
+    margin: 0;
+}
+
+.morethings .morethings_desc {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.morethings_desc h1 {
+    display: block;
+    color: #154369;
+    font-size: 25px;
+    margin: 0;
+}
+
+.morethings_desc p {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* -----------------------------
+footer
+----------------------------- */
 footer {
     /* border: 1px solid pink; */
     background-color: #214e72;
@@ -408,5 +465,8 @@ none
         opacity: 0.8;
     }
 
+    .moreinfo_container {
+        display: flex;
+    }
 
 }
