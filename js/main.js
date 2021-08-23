@@ -3,7 +3,7 @@
 {
     const next = document.getElementById("next");
     const prev = document.getElementById("prev");
-    const ul = document.querySelector("ul");
+    const ul = document.querySelector(".carousel_ul");
     const slides = ul.children;
     const dots = [];
     let currentIndex = 0;
